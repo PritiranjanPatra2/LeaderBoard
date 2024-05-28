@@ -112,7 +112,7 @@ function activate() {
         data.splice(index, 1);
         show();
       } else if (e.target.classList.value === "but1") {
-        data[index].score += 5;
+        data[index].score =+data[index].score+5;
         show();
       } else if (e.target.classList.value === "but2") {
         data[index].score -= 5;
